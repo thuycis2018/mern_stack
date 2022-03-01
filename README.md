@@ -1,29 +1,21 @@
 # mern_stack
-- Bootstrap the app using 'Create React App'
-  
-  npx create-react-app react
+#### This project was bootstrapped with [Create React App] https://github.com/facebook/create-react-app.
 
-- Backend
+### 1. Set up an account with MongoDB Atlas
+##### You will need to get the connection string from MongoDB Atlas and create the .env file inside the /backend/ directory
+#### Please see this [tutorial]  https://medium.com/@beaucarnes/learn-the-mern-stack-by-building-an-exercise-tracker-mern-tutorial-59c13c1237a1
 
-  cd react
+### 2. To Run the backend app (server)
+##### Make sure you are in the backend/ directory & type the following command
 
-  mkdir backend
+```sh
+$ npm install
+$ nodemon server
+```
+### 3. To Run the frontend app
+##### Make sure you are in the react/ directory & type the following command
 
-  cd backend
-
-  npm init -y
-
-  npm install express cors mongoose dotenv
-
-  npm install -g nodemon
-
-- Frontend
-
-  npm install --save react-router-dom
-  npm install --save axios
-
-  npm install bootstrap
-
-  npm install react-datepicker
-
-  npm install react-router-dom@5.3.0
+```sh
+$ npm install
+$ npm start
+```
