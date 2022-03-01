@@ -1,5 +1,6 @@
 # mern_stack
 - Bootstrap the app using 'Create React App'
+  
   npx create-react-app react
 
 - Backend
