@@ -1,4 +1,4 @@
-# mern_stack
+# MERN Stack
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### 1. Set up an account with MongoDB Atlas
